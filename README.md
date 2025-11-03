@@ -1,7 +1,9 @@
 ---
 
-## 📷 시연 화면 (Demo)
-![Demo Image](ppt/door.png)
+## 📷 요약 설명 (Summary Demo)
+![Demo Image](ppt/door_1.png)
+
+![Demo Image](ppt/door_2.png)
 
 ---
 
