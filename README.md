@@ -1,6 +1,6 @@
 ---
 
-## 📷 요약 설명 (Summary Demo)
+## 📷 시연 요약 (Demo Summary)
 ![Demo Image](ppt/door_1.png)
 
 ![Demo Image](ppt/door_2.png)
