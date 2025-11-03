@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Oct 15 17:10:24 2025-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="designParametersSetup">
+  <object type="saDesignParametersSetup" version="1" name="designParametersSetup">
+   <collection name="cellviews">
+    <object type="saCellViewParameters" version="1" name="cellviews">
+     <attribute value="251001_2NOR" type="giString" name="cellName"/>
+     <attribute value="1" type="giBoolean" name="enabled"/>
+     <collection name="instanceParameters">
+      <object type="saInstanceParameters" version="1" name="instanceParameters">
+       <attribute value="1" type="giBoolean" name="enabled"/>
+       <attribute value="" type="giString" name="groupName"/>
+       <attribute value="/I0/M2" type="giString" name="instanceName"/>
+       <collection name="parameters">
+        <object type="saParam" version="1" name="parameters">
+         <attribute value="w" type="giString" name="name"/>
+         <attribute value="WIDTH" type="giString" name="value"/>
+        </object>
+       </collection>
+       <attribute value="plotpacket0" type="giString" name="probeColor"/>
+      </object>
+      <object type="saInstanceParameters" version="1" name="instanceParameters">
+       <attribute value="1" type="giBoolean" name="enabled"/>
+       <attribute value="" type="giString" name="groupName"/>
+       <attribute value="/I0/M3" type="giString" name="instanceName"/>
+       <collection name="parameters">
+        <object type="saParam" version="1" name="parameters">
+         <attribute value="w" type="giString" name="name"/>
+         <attribute value="WIDTH" type="giString" name="value"/>
+        </object>
+       </collection>
+       <attribute value="plotpacket1" type="giString" name="probeColor"/>
+      </object>
+     </collection>
+     <attribute value="JIWOO" type="giString" name="libName"/>
+     <attribute value="schematic" type="giString" name="viewName"/>
+    </object>
+   </collection>
+   <attribute value="1" type="giBoolean" name="enabled"/>
+   <collection name="occurrences"/>
+  </object>
+ </collection>
+</file-format>

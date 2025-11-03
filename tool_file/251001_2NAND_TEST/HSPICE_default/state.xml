@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Oct 15 17:10:19 2025-->
+<file-format version="1.0" name="stateData">
+ <attribute value="1" type="giBoolean" name="dcop_splitted"/>
+ <attribute value="" type="giString" name="description"/>
+ <attribute value="JIWOO/251001_2NAND_TEST/schematic" type="dmCellView" name="design"/>
+ <attribute value="" type="giString" name="dspfInfo"/>
+ <attribute value="1" type="giBoolean" name="enabled"/>
+ <attribute value="0" type="giBoolean" name="enabledJobClass"/>
+ <attribute value="PrimeSim" type="giString" name="migratedSimulator"/>
+ <attribute value="HSPICE_default" type="giString" name="name"/>
+ <attribute value="JIWOO/251001_2NAND_TEST/HSPICE_default" type="dmCellView" name="openaccessState"/>
+ <attribute value="HSPICE" type="giString" name="simulator"/>
+ <comment></comment>
+ <resultsDir>~/simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>

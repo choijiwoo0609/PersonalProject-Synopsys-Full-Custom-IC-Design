@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      aedu45
+HostName                       kccisynop2
+ProcessIdentifier              4179041
+ProcessCreationTime_UTC        1760575745
+ProcessCreationTime_Readable   Thu Oct 16 09:49:05 2025 KST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/aedu45/JIWOO/251016_MUX/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu Oct 16 09:49:29 2025 KST

@@ -1,0 +1,57 @@
+### WaveView session file (version W-2024.09-SP2-3 build May 15, ) ###
+### saved at 09:56:12 on Thu Oct  2 2025 ###
+wdf 0 "/home/aedu45/simulation/JIWOO,251002_3NOR_TEST,schematic/history_1/simulation/default/PrimeSimHSPICE/parametric/results/resultsMap.xml" load=used "title=dc:dc" "atype=dc:dc" 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=81 mntr_b=151 name_width=66 mcur=5e-01 vc=cur-pnl "name=dc" showtitle=true "wvtitle=JIWOO:251002_3NOR_TEST:default:dc" 
+  panel_begin linear pidx=0 spath=name+file xlabel="Real(-)" ylabel="V" xmin=4.9999078675799e-01 xmax=5.0000921324201e-01 ymin=4.76370510396975e-01 ymax=5.1452255284467e-01 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" attr=3:0:1:0 autoset=true alias="v(/I0/VINC)" disp=show swphead=true swpline=true 
+    line src=wdf lidx=1 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=1 attr=2:1:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=2 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=2 attr=1:2:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=3 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=3 attr=0:3:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=4 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=4 attr=7:4:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=5 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=5 attr=6:5:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=6 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=6 attr=5:6:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=7 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=7 attr=4:7:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=8 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=8 attr=3:0:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=9 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=9 attr=2:1:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=10 fidx=0 "delim=." sigtype=1 "name=v(xi0.vinc)" swidx=10 attr=1:2:1:0 alias="v(/I0/VINC)" disp=show swpline=true 
+    line src=wdf lidx=11 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" attr=128:2:1:0 autoset=true alias="v(/I0/VOUT)" disp=show swphead=true swpline=true 
+    line src=wdf lidx=12 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=1 attr=0:3:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+    line src=wdf lidx=13 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=2 attr=7:4:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+    line src=wdf lidx=14 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=3 attr=6:5:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+    line src=wdf lidx=15 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=4 attr=5:6:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+    line src=wdf lidx=16 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=5 attr=4:7:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+    line src=wdf lidx=17 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=6 attr=3:0:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+    line src=wdf lidx=18 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=7 attr=2:1:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+    line src=wdf lidx=19 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=8 attr=1:2:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+    line src=wdf lidx=20 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=9 attr=0:3:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+    line src=wdf lidx=21 fidx=0 "delim=." sigtype=1 "name=v(xi0.vout)" swidx=10 attr=7:4:1:0 alias="v(/I0/VOUT)" disp=show swpline=true 
+  panel_end
+waveview_end
+browserClosed
+
+#Custom Plot Section
+simulation_begin test=default history=1 idx=1002001
+run_type 0
+view_list
+  4 dc
+end_view_list
+probe_list
+  v(/I0/VINC) alias=
+  v(/I0/VOUT) alias=
+end_probe_list
+original_sim
+sim_id=default
+history_point=1
+sim_idx=1002001
+sim_dir=/home/aedu45/simulation/JIWOO,251002_3NOR_TEST,schematic/history_1/simulation/default/PrimeSimHSPICE/parametric/results
+from_virtuoso=0
+is_output=1
+is_mtb=0
+hasViewer=0
+{"sim_id":"default","sae_session":"saeSession10","sae_session_desc":"","directory":"/home/aedu45/simulation/JIWOO,251002_3NOR_TEST,schematic/history_1/simulation/default/PrimeSimHSPICE/parametric/results","results_directory":"~/simulation","results_absdirectory":"/home/aedu45/simulation","post_results_dir":"/home/aedu45/simulation/JIWOO,251002_3NOR_TEST,schematic/history_1/simulation/default/PrimeSimHSPICE/parametric/results","save_post_results_in_session":"0","is_mc_multiple_run":"0","is_sim_sweep_run":"0","is_data_driven_sweep":"false","runDirDelimiter":",","test_suite_info":"JIWOO:251002_3NOR_TEST:schematic","history_index":"1","history_name":"history_1","history_desc":"Run Simulation","is_mtb":"0","id":"1002001","child":"0","description":"","design_str":"JIWOO:251002_3NOR_TEST:schematic","simulator":"HSPICE","newResultsFormat":"0","is_initial":"0","sim_wave_removed":"0","chart_list":[],"isSaeAging":"0","saeAgingSimMode":"3","sonoma":"1","sonomaInc":"1","incPartial":"full","sim_netlist_removed":"0","modelIncPath":"","isbreviate_historyname":"false","history_check":"false","ischange_historyname":"false","autoPlot":"1","isDirPlot":"0","invokeFrom":"SIM_DONE","save_format":"","incomplete_type":"","corparams":"","exportImageSize":"636*254","isWorstCaseAnalysis":"0","dspfIncludeOptions":"0","sweepUseDesignVar":"0","hasMSIPAceScripts":"0","equation_list":[{"equa_id":"equa#0","index":"1","equa_name":"","equa_schem":"","type":"","resultType":"","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"","units":"","ParamConditions":"","isGlobal":"true","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","goal":"","show_in_rv":"0","description":"","saveImage":"0","precision":"0","poor":"","poorHigh":"","poorLow":"","poorType":"","measExpr":"","eqnIdx":"","specEqu":false,"forceRecal":false,"originalExpr":"","measWaveDep":false,"lineIdx":"","orgErrMsg":"","suffix":"","imageTitle":""}],"probe_list":[{"probe_id":"probe#0","index":"2","signal_alias":"","signal_name":"v(/I0/VINC)","signal_type":"net","resultType":"dc","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"255:0:0","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"1","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"1","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"},{"probe_id":"probe#1","index":"3","signal_alias":"","signal_name":"v(/I0/VOUT)","signal_type":"net","resultType":"dc","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"204:0:255","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","show_in_rv":"1","description":"","saveImage":"0","eqnIdx":"2","specEqu":false,"poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","goal":"","precision":"6","measWaveDep":false,"lineIdx":"2","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t"}],"ace_list":[],"model_list":[{"file":"/home/PDK2/SAED32nm_PDK_02_2024/hspice/saed32nm.lib:FF"}],"globalModel_list":[],"globalTemperature_list":[{"file":"25:Celsius"}],"design_variables_list":[["VINC","0.5"],["WIDTH","0.1u"]],"corner_group_params_list":[],"analyses_list":[["dc","{Sweep Variable: Design Variable Variable Name: VINC  Sweep Type: Linear Steps }"]],"modelGrp_list":[],"corner_list":[],"no_value_corner_param_list":[],"monte_list":[],"monteSigma":"","targetSigma":"","monteUseDesignVar":"0","monteUseIterList":"","sweep_list":[{"param":"WIDTH","value":"2u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.01u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.02u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.03u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.04u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.05u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.06u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.07u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.08u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.09u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "},{"param":"WIDTH","value":"2.1u","isLog":"0","dataDrivenParam":"","dependDataDrivenParam":" "}]}
+end_original_sim
+original_map
+{"sae_session":"saeSession10","map_list":[{"schemName":"v(/I0/VINC)","waveName":"v(xi0.vinc)","resultID":"resFile0","resultType":"dc","analysisName":"dc","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"2","is_expression":false},{"schemName":"v(/I0/VOUT)","waveName":"v(xi0.vout)","resultID":"resFile0","resultType":"dc","analysisName":"dc","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"3","is_expression":false}],"result_list":[{"file_name":"resultsMap.xml","resultID":"resFile0"},{"file_name":"postResultsMap.xml","is_post":"TRUE"}]}
+end_original_map
+simulation_end

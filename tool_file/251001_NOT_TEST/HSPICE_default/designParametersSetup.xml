@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Oct  1 14:04:07 2025-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="designParametersSetup">
+  <object version="1" type="saDesignParametersSetup" name="designParametersSetup">
+   <collection name="cellviews">
+    <object version="1" type="saCellViewParameters" name="cellviews">
+     <attribute type="giString" name="cellName" value="251001_NOT"/>
+     <attribute type="giBoolean" name="enabled" value="1"/>
+     <collection name="instanceParameters">
+      <object version="1" type="saInstanceParameters" name="instanceParameters">
+       <attribute type="giBoolean" name="enabled" value="1"/>
+       <attribute type="giString" name="groupName" value=""/>
+       <attribute type="giString" name="instanceName" value="/I1/M0"/>
+       <collection name="parameters">
+        <object version="1" type="saParam" name="parameters">
+         <attribute type="giString" name="name" value="w"/>
+         <attribute type="giString" name="value" value="WIDTH"/>
+        </object>
+       </collection>
+       <attribute type="giString" name="probeColor" value="plotpacket0"/>
+      </object>
+     </collection>
+     <attribute type="giString" name="libName" value="JIWOO"/>
+     <attribute type="giString" name="viewName" value="schematic"/>
+    </object>
+   </collection>
+   <attribute type="giBoolean" name="enabled" value="1"/>
+   <collection name="occurrences"/>
+  </object>
+ </collection>
+</file-format>
