@@ -11,7 +11,7 @@
 
 ![대한상공회의소](https://img.shields.io/badge/대한상공회의소_서울기술교육센터-003366?style=flat&logo=git&logoColor=1E90FF)
 ![과정: AI 시스템반도체설계 2기](https://img.shields.io/badge/과정-AI%20시스템반도체설계%202기-FFD700?style=flat&logo=github&logoColor=FFD700)
-![과목: SoC(System On Chip) 설계](https://img.shields.io/badge/과목-SoC(System%20On%20Chip)%20설계-4CAF50?style=flat&logo=databricks&logoColor=white)
+![과목: OneChip Physical Design](https://img.shields.io/badge/과목-OneChip%20Physical%20Design-4CAF50?style=flat&logo=databricks&logoColor=white)
 
 ---
 ## 💻 기술 스택 (Tech Stack)
